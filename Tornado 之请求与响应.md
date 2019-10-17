@@ -421,6 +421,11 @@ if __name__ == "__main__":
           self.write("详情：%s<br/>"%kwargs.get("content",'none'))
   ```
 
+- set_cookie(key, val, expires,expires_day)  ： 设置cookie,可使用 timedelta 来加减时间
+- clear_cookie('token') 删除该键的值
+
+
+
 
 
 #### 请求参数方法补充
